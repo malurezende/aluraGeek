@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: red;
+    height: 4000px;
+}
+
+header {
+    width: 1135px;
+    height: 115px;
+    background: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.aluraGeek {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: greenyellow;
+}
+
+#pesquisa {
+    width: 393px;
+    height: 40px;
+    border-radius: 15px;
+
+}
+
+.login {
+    flex-direction: column;
+
+}
