@@ -40,7 +40,38 @@ header {
 
 }
 
+.container-banner {
+    height: 352px;
+    width: 100%;
+    overflow: hidden;
+    background: url("./img/hero.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+
 #banner {
     width: 100%;
+}
+
+.container-produtos {
+    width: 1135px;
+    background: rgb(181, 136, 224);
+    margin: 0 auto;
+}
+
+.produtos {
+    padding: 48px 0;
+}
+
+.produto-txt {
+    width: 100%;
+}
+
+
+.produto-img {
+    width: 1135px;
+    margin-top: 16px;
+    flex-direction: column;
+    
 
 }
