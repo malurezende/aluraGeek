@@ -2,18 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
     width: 100%;
-    background-color: rgb(43, 255, 0);
-    /* height: 4000px; */
 }
 
 header {
     width: 1135px;
     height: 115px;
-    background: blueviolet;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -25,7 +23,12 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: greenyellow;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #pesquisa {
@@ -38,6 +41,7 @@ header {
     background-repeat: no-repeat;
     background-position: 95%;
     padding-left: 15px;
+    margin-left: 32px;
 }
 
 .input-login-botao {
@@ -47,7 +51,6 @@ header {
     width: 182px;
     height: 51px;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
     color: #2A7AE4;
     cursor: pointer;
     border: 1px solid #2A7AE4;
@@ -73,16 +76,16 @@ header {
     width: 751px;
     height: 61px;
     font-size: 52px;
-    font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .container-banner p {
     width: 751px;
     height: 26px;
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .botao-ver-consoles {
@@ -93,10 +96,8 @@ header {
     border: 3px;
     color: #FFFFFF;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-
+    margin-bottom: 16px;
 }
-
 
 #banner {
     width: 100%;
@@ -104,12 +105,12 @@ header {
 
 .container-produtos {
     width: 1135px;
-    background: rgb(181, 136, 224);
+    /* background: rgb(181, 136, 224); */
     margin: 0 auto;
 }
 
 .produtos {
-    padding: 48px 0;
+    padding-bottom: 48px;
 }
 
 .produto-txt {
@@ -117,7 +118,14 @@ header {
 }
 
 .titulo-produto {
-    font-family: 'Raleway', sans-serif;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16ox;
+    font-weight: 700;
+    color:#2A7AE4
+
 }
 
 .produto-img {
@@ -126,6 +134,23 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.descricao-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.descricao-produto p {
+    margin-bottom: 8px;
+}
+
+.ver-produto {
+    text-decoration: none;
+    color:#2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .container-footer {
@@ -137,6 +162,7 @@ header {
     width: 1135px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 48px 0;
     margin: 0 auto;
 }
@@ -152,8 +178,7 @@ header {
 
 li {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-
+    font-family: 'Raleway', normal;
 }
 
 .contato {
@@ -163,7 +188,8 @@ li {
 
 .contato p {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', normal;
+    font-weight: 700;
     margin-bottom: 16px;
 }
 
@@ -185,7 +211,6 @@ li {
     width: 560px;
     height: 56px;
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
     padding-left: 15px;
 }
 
@@ -196,7 +221,6 @@ li {
     width: 560px;
     height: 82px;
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
     padding-left: 15px;
 }
 
@@ -207,7 +231,6 @@ li {
     width: 165px;
     height: 51px;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -219,7 +242,6 @@ footer h3 {
     color: #464646;
     text-align: center;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
     padding: 32px 0;
     
 }
