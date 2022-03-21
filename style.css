@@ -32,7 +32,12 @@ header {
     width: 393px;
     height: 40px;
     border-radius: 15px;
-
+    border: 3px solid #F5F5F5;
+    background-color: #F5F5F5;
+    background-image: url("./img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding-left: 15px;
 }
 
 .login {
@@ -46,6 +51,40 @@ header {
     overflow: hidden;
     background: url("./img/hero.jpeg") no-repeat center;
     background-size: cover;
+}
+
+.container-banner-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-banner h2 {
+    width: 751px;
+    height: 61px;
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.container-banner p {
+    width: 751px;
+    height: 26px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.botao-ver-consoles {
+    width: 130px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border-radius: 4px;
+    border: 3px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -67,19 +106,100 @@ header {
     width: 100%;
 }
 
+.titulo-produto {
+    font-family: 'Raleway', sans-serif;
+}
 
 .produto-img {
     width: 1135px;
     margin-top: 16px;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container-footer {
+    width: 100%;
+    background: #EAF2FD;
+}
+
+.container-footer-inner {
+    width: 1135px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 48px 0;
-    background: #EAF2FD;
+    margin: 0 auto;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 176px;
+    height: 234px;
+}
+
+li {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 16px;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.formulario-contato input {
+    margin-bottom: 16px;
+}
+
+.input-contato-nome {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 560px;
+    height: 56px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px;
+}
+
+.input-contato-msg {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 560px;
+    height: 82px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px;
+}
+
+.input-contato-botao {
+    background-color: #2A7AE4;
+    border-radius: 4px;
+    border: 3px;
+    width: 165px;
+    height: 51px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 footer h3 {
@@ -89,6 +209,7 @@ footer h3 {
     color: #464646;
     text-align: center;
     font-size: 16px;
+    font-family: 'Raleway', sans-serif;
     padding: 32px 0;
     
 }
