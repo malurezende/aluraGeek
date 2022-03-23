@@ -57,100 +57,62 @@ header {
     box-sizing: border-box;
 }
 
-.container-banner {
-    height: 352px;
-    width: 100%;
-    overflow: hidden;
-    background: url("./img/hero.jpeg") no-repeat center;
-    background-size: cover;
+.container-login{
+    background-color: #F5F5F5;
+   
 }
 
-.container-banner-txt {
-    width: 1135px;
+.container-login-inner {
+    width: 423px;
+    height: 291px;
     margin: 0 auto;
-    margin-top: 150px;
-    
 }
 
-.container-banner h2 {
-    width: 751px;
-    height: 61px;
-    font-size: 52px;
-    color: #FFFFFF;
+.container-login p {
+    font-size: 18px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.formulario-login input {
     margin-bottom: 16px;
 }
 
-.container-banner p {
-    width: 751px;
-    height: 26px;
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-bottom: 16px;
+.formulario-login {
+    display: flex;
+    flex-direction: column;
 }
 
-.botao-ver-consoles {
-    width: 130px;
-    height: 51px;
+.input-contato-email {
+    background-color: #FFFFFF;;
+    border-radius: 4px;
+    border: 3px;
+    width: 423px;
+    height: 63px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.input-contato-senha {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 423px;
+    height: 63px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.input-contato-entrar {
     background-color: #2A7AE4;
     border-radius: 4px;
     border: 3px;
+    width: 423px;
+    height: 63px;
+    font-size: 14px;
     color: #FFFFFF;
-    font-size: 16px;
-    margin-bottom: 16px;
-}
-
-#banner {
-    width: 100%;
-}
-
-.container-produtos {
-    width: 1135px;
-    /* background: rgb(181, 136, 224); */
+    cursor: pointer;
     margin: 0 auto;
-}
-
-.produtos {
-    padding-bottom: 48px;
-}
-
-.produto-txt {
-    width: 100%;
-}
-
-.titulo-produto {
-    margin-top: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16ox;
-    font-weight: 700;
-    color:#2A7AE4
-
-}
-
-.produto-img {
-    width: 1135px;
-    margin-top: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.descricao-produto {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.descricao-produto p {
-    margin-bottom: 8px;
-}
-
-.ver-produto {
-    text-decoration: none;
-    color:#2A7AE4;
-    font-weight: 700;
-    font-size: 16px;
 }
 
 .container-footer {
