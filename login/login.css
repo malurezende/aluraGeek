@@ -7,6 +7,9 @@
 
 body {
     width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -16,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .aluraGeek {
@@ -59,19 +61,26 @@ header {
 
 .container-login{
     background-color: #F5F5F5;
-   
+    display: flex;
+    align-items: center;
+    flex: 1;
 }
 
 .container-login-inner {
     width: 423px;
-    height: 291px;
+    height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container-login p {
     font-size: 18px;
     color: #464646;
     font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .formulario-login input {
