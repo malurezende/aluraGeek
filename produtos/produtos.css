@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 1135px;
+    height: 115px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aluraGeek {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pesquisa {
+    width: 393px;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid #F5F5F5;
+    background-color: #F5F5F5;
+    background-image: url("./img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding-left: 15px;
+    margin-left: 32px;
+}
+
+.input-adm-botao {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 181px;
+    height: 51px;
+    font-size: 14px;
+    color: #2A7AE4;
+    cursor: pointer;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+}
+
+
+
+.container-footer {
+    width: 100%;
+    background: #EAF2FD;
+}
+
+.container-footer-inner {
+    width: 1135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px 0;
+    margin: 0 auto;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 176px;
+    height: 234px;
+}
+
+li {
+    font-size: 16px;
+    font-family: 'Raleway', normal;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato p {
+    font-size: 16px;
+    font-family: 'Raleway', normal;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.formulario-contato input {
+    margin-bottom: 16px;
+}
+
+.input-contato-nome {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 560px;
+    height: 56px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.input-contato-msg {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 3px;
+    width: 560px;
+    height: 82px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.input-contato-enviar {
+    background-color: #2A7AE4;
+    border-radius: 4px;
+    border: 3px;
+    width: 165px;
+    height: 51px;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer h3 {
+    width: 100%;
+    margin: 0 auto;
+    color: #464646;
+    text-align: center;
+    font-size: 16px;
+    padding: 32px 0;
+    
+}

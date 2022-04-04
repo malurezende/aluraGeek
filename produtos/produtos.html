@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./login.css">
+        <link rel="stylesheet" href="./produtos.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-        <title>Login - Alura Geek</title>
+        <title>Produtos adm - Alura Geek</title>
     </head>
     <body>
         <header>
@@ -21,9 +21,57 @@
                 </a>
                 <input class="input-pesquisa" type="text" id="pesquisa" required placeholder="o que deseja encontrar?">
             </div>
-            <div class="login">
+            <div class="adm">
                 <a href="">
-                    <input class="input-login-botao" type="button" value="Login">
+                    <input class="input-adm-botao" type="button" value="Menu administrador">
                 </a>
             </div>
         </header>
+
+        <div class="container-novoProduto">
+            <div class="container-novoProduto-inner">
+                <p>Adicionar novo produto</p>
+                <form id="frmFile">
+                    <div>
+                        <label for="arquivo">Procure no seu computador:</label>
+                    </div>
+                    <div>
+                        <input type="file" id="arquivo" name="arquivo" multiple>
+                    </div>
+                    <div>
+                       
+                <!-- <input type="file" value="arraste para adicionar imagem"> -->
+
+            </div>
+
+        </div>
+
+
+        <div class="container-footer">
+            <div class="container-footer-inner">
+                <div class="logo">
+                    <img id="vetor" src ="../img/Vector.png">
+                    <img src="../img/Texto.png">
+                </div>
+                <div class="links">
+                    <li>Quem somos nós</li>
+                    <li>Politica de privacidade</li>
+                    <li>Programa fidelidade</li>
+                    <li>Nossas lojas</li>
+                    <li>Quero ser franqueado</li>
+                    <li>Anuncie aqui</li>
+                </div>
+                <div class="contato">
+                    <p>Fale conosco</p>
+                    <div class="formulario-contato">
+                        <input class="input-contato-nome" type="text" id="nome" required placeholder="Nome">
+                        <input class="input-contato-msg" type="text" required placeholder="Escreva sua mensagem">
+                        <input class="input-contato-enviar" type="button" value="Enviar">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3>Desenvolvido por Malu Rezende | 2022</h3>
+        </footer>
+    </body>
